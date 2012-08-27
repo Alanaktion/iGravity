@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<title>iGravity</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<style type="text/css">
+	body {
+		font-family: sans-serif;
+	}
+	b {
+		background: url(ball20.png) 0 0 no-repeat;
+		display: block;
+		position: absolute;
+		width: 20px; height: 20px;
+		border-radius: 5px;
+		z-index: 999;
+	}
+	@media only screen and (-webkit-min-device-pixel-ratio:2) {
+		b {
+			background-image: url(ball20@2x.png);
+			background-size: contain;
+		}
+	}
+	</style>
+	<script src="script.js"></script>
+</head>
+<body>
+	<span></span>
+</body>
+</html>
